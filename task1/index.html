@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Form</title>
+</head>
+
+<body>
+  <form novalidate id="recipe-form">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required />
+
+    <label for="ingredients">Ingredients:</label>
+    <input type="text" id="ingredients" name="ingredients" required />
+
+    <label for="instructions">Instructions:</label>
+    <textarea id="instructions" name="instructions" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
